@@ -37,6 +37,11 @@ async function start() {
       querySnapshot.docChanges().forEach((change) => {
         if (change.type === "added") {
           console.log("New city: ", change.doc.data());
+
+          const res = db.collection("users").add({
+            name: "Tokyo",
+            country: "Japan",
+          });
         }
         if (change.type === "modified") {
           console.log("Modified city: ", change.doc.data());
