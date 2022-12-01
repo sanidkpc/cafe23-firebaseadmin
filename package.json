@@ -1,0 +1,11 @@
+{
+  "name": "cafe23-firebaseadmin",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com-sanidkpc:sanidkpc/cafe23-firebaseadmin.git",
+  "author": "sanidkpc <sanidkpc@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "firebase-admin": "^11.3.0"
+  }
+}
