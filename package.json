@@ -9,6 +9,6 @@
     "firebase-admin": "^11.3.0"
   },
   "scripts": {
-    "start": "node src/start.js"
+    "start": "node src/app.js"
   }
 }
